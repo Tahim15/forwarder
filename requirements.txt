@@ -1,2 +1,2 @@
-pyrogram
+git+https://github.com/xkunal01/pyrofork-old
 tgcrypto
