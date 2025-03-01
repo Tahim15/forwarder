@@ -20,7 +20,7 @@ async def forward_message(client, message):
 
     # Send each link one by one
     for link in unique_links:
-        formatted_text = f"/leech {link}\n<b>Tag:</b> @Mr_official_300 2142536515"
+        formatted_text = f"/leech {link}\n<b>Tag:</b> <c>@Mr_official_300</c> <c>2142536515</c>"
         await client.send_message(DEST_CHANNEL, formatted_text, parse_mode="html")
 
 app.run()
